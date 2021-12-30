@@ -1,0 +1,57 @@
+<!--------------------
+
+	* Plugin: TelegramX
+	* Author: midwayfs0ciety
+	* License: MIT License
+	* Date: December 2021 - 2022
+	* Website: https://github.com/midwayfs0ciety
+
+---------------------->
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="ru-Ru"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="ru-Ru"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="ru-Ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]>
+<!--><html lang="ru"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>TelegramX</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Плагин для автоматической отправки сообщений с сайта в Телеграм.">
+	<meta name="author" content="midwayfs0ciety">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- [if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div id="telegramx">
+		<form class="telegramx__form" action="telegram.php" method="POST"> 
+			<div class="telegramx__avatar">Av</div><br>
+			<input type="text" name="name" placeholder="Ваше имя">
+			<input type="tel" name="phone" placeholder="Ваш телефон">
+			<input type="email" name="email" placeholder="Ваш Email">
+			<textarea type="text" name="message" placeholder="Напишите сообщение"></textarea>
+			<button class="telegramx_btn">Отправить</button>
+		</form>
+	</div>
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/modernizr/modernizr.min.js"></script>
+	<script src="js/public.js"></script>
+</body>
+</html>

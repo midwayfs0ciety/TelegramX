@@ -1,0 +1,131 @@
+/******************************
+
+    *   Основные стили
+    *   /css/main.css
+
+******************************/
+
+body {
+	background: rgba(var(--dark-medium), 1);
+	min-width: 320px;
+	font: var(--font-family);
+	font-weight: 400;
+	color: rgba(var(--white), 1);
+	line-height: 1.4;
+	position: relative;
+	overflow-x: hidden;
+}
+
+#telegramx {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.telegramx__avatar {
+	background: linear-gradient(0deg, rgb(102, 95, 255), rgb(130, 177, 255));
+	width: 110px;
+	height: 110px;
+	margin: 10px auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 500;
+	line-height: 110px;
+
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.telegramx__form {
+	background: rgba(var(--dark-light), 1);
+	width: 500px;
+	padding: 25px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.11);
+	-o-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.11);
+	box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.11);
+}
+
+
+.telegramx__form > textarea,
+.telegramx__form > input {
+	background: transparent;
+	outline: 0;
+	width: 100%;
+	display: block;
+	padding: 15px 20px;
+	font-weight: 500;
+	font-size: 0.8em;
+	margin-bottom: 15px;
+	border: 1px solid rgba(var(--dark-thin), 0.1);
+}
+
+.telegramx__form > textarea {
+	min-height: 100px;
+	margin-bottom: 20px !important;
+}
+
+
+.telegramx__form > textarea,
+.telegramx__form > input {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.telegramx__form > textarea:hover,
+.telegramx__form > input:hover {
+	border-color: #6C5CB4;
+}
+
+.telegramx__form > textarea:focus,
+.telegramx__form > input:focus {
+	border-color: #6C5CB4;
+}
+
+.telegramx_btn {
+	background: rgba(var(--primary), 1);
+	border: 0;
+	outline: 0;
+	width: 100%;
+	height: 48px;
+	padding: 0 40px;
+	font-size: 0.8em;
+	font-weight: 500;
+	text-align: center;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.telegramx_btn:hover {
+	background: #6C5CB4;
+}
+
+.telegramx__form > textarea,
+.telegramx__form > input,
+.telegramx_btn {
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+}
