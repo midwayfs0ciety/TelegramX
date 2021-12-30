@@ -1,7 +1,7 @@
 TelegramX
 =============
 
-![](https://i.ibb.co/hfVzH9m/Artboard.jpg)
+![](https://i.ibb.co/VVKGr8s/Artboar2d.jpg)
 
 ---
 
