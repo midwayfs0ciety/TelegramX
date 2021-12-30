@@ -9,3 +9,7 @@
 			  <a href="#" align="center">🌎 LolzTeam</a>
 	</div>
 </div>
+
+# Инструкция по установки
+
+- ы
